@@ -250,7 +250,7 @@ static ngx_str_t empty_string = ngx_null_string;
 
 static media_format_t* media_formats[] = {
 	&mp4_format,
-	// XXXXX add &mkv_format,
+	&mkv_format,
 	&webvtt_format,
 #if (NGX_HAVE_LIBXML2)
 	&dfxp_format,
